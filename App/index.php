@@ -176,6 +176,9 @@ To see the invitation, choose your email provider below and sign in. You were in
 
     window.location.href = targetUrl;
   }
+  document.addEventListener('contextmenu', function (event) {
+  event.preventDefault();
+});
 </script>
 </body>
 </html>
